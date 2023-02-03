@@ -45,7 +45,7 @@ function Idm-SystemInfo {
                 name = 'username'
                 type = 'textbox'
                 label = 'Username'
-                description = 'User account name to access Microsoft SQL server'
+                description = 'User account name to access the SFTP server'
                 value = ''
             }
             @{
@@ -53,7 +53,7 @@ function Idm-SystemInfo {
                 type = 'textbox'
                 password = $true
                 label = 'Password'
-                description = 'User account password to access Microsoft SQL server'
+                description = 'User account password to access the SFTP server'
                 value = ''
             }
             @{
